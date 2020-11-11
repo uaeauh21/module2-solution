@@ -38,7 +38,7 @@ h1{
   background-color:#808080;
 } 
 
-#box > p {
+#box1 > p, #box2 > p, #box3 > p{
   
   padding:10px;
   padding-top:25px;
