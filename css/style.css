@@ -28,7 +28,7 @@ h1{
 
 }
 
-#box {
+#box1,#box2,#box3 {
   float:left;
   position: relative;
   margin: .5em;
@@ -79,4 +79,24 @@ section{
 
 #box.m1{
   
+}
+
+
+@media (min-width: 768px ) and (max-width: 991px) {
+  body {
+    background-color: olive;
+  }
+
+  #box1{
+    width:100%;
+  }
+  
+    #box2{
+    width:100%;
+  }
+  
+    #box3{
+    width:100%;
+  }
+
 }
