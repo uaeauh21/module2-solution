@@ -25,7 +25,6 @@ h1{
 
 #box1,#box2,#box3 {
   float:left;
-  height: 200px;
   border: 2px solid;
   background-color:#808080;
 } 
@@ -45,7 +44,7 @@ section{
   border-left: 2px solid;
   border-bottom: 2px solid;
   font-weight: bold;
-   font-size:1em;
+  font-size:1em;
 }
 
 
@@ -68,7 +67,7 @@ section{
 
 p{
   margin:20px 15px;
-  font-size:1.1em;
+  font-size:.75em;
 }
 @media (min-width: 992px)   {
 #box1,#box2,#box3 {
